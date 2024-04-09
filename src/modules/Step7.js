@@ -10,14 +10,14 @@ const Step7 = () => {
       <div className='flex flex-col lg:flex-row gap-5 w-full max-w-screen-lg mt-20'>
 
         <div className='flex items-center py-7 px-5 gap-10 rounded-md border relative'>
-        <div className="absolute bg-yellow-500 rounded-full border py-1 px-2 font-bold top-0 left-200 transform -translate-x-1/2 -translate-y-1/2">Most Popular</div>
+        <div className="absolute whitespace-nowrap bg-yellow-500 rounded-full border py-1 px-2 font-bold top-0 left-200 transform -translate-x-1/2 -translate-y-1/2">Most Popular</div>
           <p><strong>Fondational Math </strong>Build your foundational skills in algebra, geometry, and probability.</p>
-          <img className='w-36 h-36 lg:w-48 lg:h-48' src={image} alt="Math" />
+          <img className='w-24 h-24 lg:w-48 lg:h-48' src={image} alt="Math" />
         </div>
 
         <div className='flex items-center py-7 px-5 gap-10 rounded-md border border-gray-300'>
           <p><strong>Fondational Math </strong>Build your foundational skills in algebra, geometry, and probability.</p>
-          <img className="w-36 h-36 lg:w-48 lg:h-48" src={image} alt="Math" />
+          <img className="w-24 h-24 lg:w-48 lg:h-48" src={image} alt="Math" />
         </div>
       </div>
     </div>
